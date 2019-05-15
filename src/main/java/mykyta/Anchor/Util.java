@@ -21,8 +21,9 @@ public class Util {
     public static NMS nms;
     public static boolean debug = false;
     private final String af = "plugins" + File.separator + "Anchor" + File.separator + "anchors.db";
+    Config config = new Config();
 
-    public void setInstance(Anchor a) {instance = a;}
+    public void setInstance(Anchor a) {instance = a; config.setInstance(a)}
 
     public void setNMS() {            
         String version = "";
