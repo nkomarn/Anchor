@@ -1,0 +1,13 @@
+name: Anchor
+version: 1.0
+main: mykyta.Anchor.Anchor
+description: Weigh Anchor and Hoist the Mizzen! Anchor is a plugin that keeps chunks with Anchors loaded, meaning that you can keep spawners and redstone contraptions working, even when there are no players around!
+author: Mykyta (TechToolbox)
+website: https://mykyta.tk 
+api-version: 1.14
+
+commands:
+  anchor:
+    description: List information and control Anchor.
+    usage: /<command>
+
